@@ -24,3 +24,4 @@
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/material.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/styleregister.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/product.css') }}">

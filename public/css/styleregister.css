@@ -157,7 +157,8 @@ body {
   background-position: center center;
   padding: 115px 0; */}
 
-.container {
+.container-form {
+  width: 660px;
   position: relative;
   margin: 0 auto; }
 

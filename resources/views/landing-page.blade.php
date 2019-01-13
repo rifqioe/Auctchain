@@ -3,6 +3,11 @@
 <head>
 	<title>AUCTCHAIN</title>
 	@include('css')
+	<style>
+		::-webkit-scrollbar {
+            width: 0 !important;
+        }
+	</style>
 </head>
 <body>
 	<div id="preloder">	
@@ -83,7 +88,7 @@
 					</div>
 					<div class="banner_3_title">Do you want to sell?</div>
 					<div class="button banner_3_button banner-btn pull-left">
-						<a class="link" href="otoy.html">SELL</a>
+						<a class="link" href="{{ Route('registerItem')}}">SELL</a>
 					</div>
 				</div>
 				<div class="banner_4_content col-md col-sm-6 col-xs-12 pull-right">

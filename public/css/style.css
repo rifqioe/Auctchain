@@ -22,8 +22,13 @@
 	margin-left: 0 !important;
 }
 
-#bidHistory tr th, #sellHistory tr th {
+.bidHistory tr th, .sellHistory tr th, .sellHistory tr td {
 	text-align: center;
+}
+
+.bidHistory, .sellHistory {
+	width: 100%;
+
 }
 
 #down-to-advantage,#down-to-profile{
@@ -46,9 +51,9 @@
 	cursor: pointer;
 }
 
-::-webkit-scrollbar{
+/*::-webkit-scrollbar{
 	display: none;
-}
+}*/
 
 * {
 	margin: 0;

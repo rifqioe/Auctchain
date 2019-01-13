@@ -1318,7 +1318,7 @@ select option
 	justify-content: center;
 	align-items: center;
 	width: calc(100% + 15px);
-	height: 525px;
+	height: 400px;
 	-webkit-transform: translateX(-15px);
 	-moz-transform: translateX(-15px);
 	-ms-transform: translateX(-15px);

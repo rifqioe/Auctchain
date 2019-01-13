@@ -2,9 +2,10 @@
 	<div class="header_main">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-sm-4 col-4 order-1">
+				<div class="col-lg-3 col-sm-3"></div>
+				<div class="col-lg-6 col-sm-6 col-6 order-1">
 					<div class="logo_container">
-						<div class="logo"><a href="{{ Route('landingPage') }}">Auctchain Sellroom</a></div>
+						<div class="logo text-center"><a href="{{ Route('sellroom') }}">AUCTCHAIN SELLROOM</a></div>
 					</div>
 				</div>
 				<div class="col-lg-6 offset-2 col-12 order-lg-2 order-3 text-lg-left text-right" style="display: none">
@@ -38,7 +39,7 @@
 					<div class="main_nav_menu ml-auto accountInfo">
 						<ul class="standard_dropdown main_nav_dropdown">
 							<li>
-								<a id="accountAddress" href="{{ Route('account') }}">Hello ...</a>
+								<a id="accountAddress" href="{{ Route('account') }}">Hi ...</a>
 							</li>
 						</ul>
 					</div>

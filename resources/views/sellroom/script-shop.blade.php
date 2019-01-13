@@ -1,4 +1,3 @@
-<!-- <script src="../../js/jquery-3.3.1.min.js"></script> -->
 <!-- <script src="../../js/bootstrap4/popper.js"></script>
 <script src="../../js/bootstrap4/bootstrap.min.js"></script>
 <script src="../../plugins/greensock/TweenMax.min.js"></script>
@@ -16,5 +15,7 @@
 <script src="../../js/main.js"></script>
 <script src="../../js/product_custom.js"></script>
 <script src="../../js/material.min.js"></script>
- --><script src="../../js/Contract.js"></script>
-<script src="../../js/web3.min.js"></script>
+ -->
+<script src="{{URL::asset('js/jquery-3.3.1.min.js')}}"></script>
+<script src="{{URL::asset('js/myContract.js')}}"></script>
+<script src="{{URL::asset('js/web3.min.js')}}"></script>
